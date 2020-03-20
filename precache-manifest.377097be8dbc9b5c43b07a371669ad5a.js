@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "64ac5dc88ffe9e95382f420f7b23f7d8",
+    "revision": "a125c1c6fb9fcffdef886a8956cc8b82",
     "url": "/jackbox-game-finder/index.html"
   },
   {
-    "revision": "9944570e127c931da7fd",
+    "revision": "2bc4555a027c2ec7516e",
     "url": "/jackbox-game-finder/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jackbox-game-finder/static/js/2.c510f7c3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9944570e127c931da7fd",
-    "url": "/jackbox-game-finder/static/js/main.a8b7f03a.chunk.js"
+    "revision": "2bc4555a027c2ec7516e",
+    "url": "/jackbox-game-finder/static/js/main.fd41b592.chunk.js"
   },
   {
     "revision": "0a4492b4205a0e34e701",
