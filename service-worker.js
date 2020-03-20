@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jackbox-game-finder/precache-manifest.377097be8dbc9b5c43b07a371669ad5a.js"
+  "/jackbox-game-finder/precache-manifest.6797bd4ce0aa0b833c0de42b15bf381a.js"
 );
 
 self.addEventListener('message', (event) => {
