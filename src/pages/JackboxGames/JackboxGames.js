@@ -22,11 +22,6 @@ export default function JackboxGames() {
         setAudience(value);
     };
     const gamesList = getGamesList({ order, orderBy, playerCount, audience });
-    const getCurrentGamesList = () => {
-        return gamesList.map(game => {
-            return game.name;
-        });
-    };
     return (
         <Grid container spacing={3}>
             <Grid item container xs={12} spacing={1}
@@ -37,7 +32,7 @@ export default function JackboxGames() {
                     <GameTableFilter onFilterPlayer={handlePlayerFilter} onAudienceFilter={handleAudience} audience />
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <RandomGame getGamesList={getCurrentGamesList} />
+                    <RandomGame gamesList={gamesList} />
                 </Grid>
             </Grid>
             <Grid item xs={12}>
