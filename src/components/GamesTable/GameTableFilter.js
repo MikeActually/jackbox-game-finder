@@ -19,28 +19,30 @@ export default function GameTableFilter(props) {
                 direction="row"
                 justify="flex-start"
                 alignItems="center">
-                <Grid item xs={6} sm={3}>
-                    <TextField
-                        name="playerCount"
-                        label="Player Count"
-                        variant="outlined"
-                        onChange={onPlayerCountChange} />
-                </Grid>
-                <Grid item xs={6} sm={3}>
-                    <FormControlLabel
-                        control={
-                            <Switch
-                                name="audience"
-                                color="primary"
-                                size="small"
-                                onChange={onAudienceToggle}
-                            />
-                        }
-                        label="Overflow to Audience?"
-                    />
-                </Grid>
-                <Grid item xs={12}>
-                    <FormHelperText>When toggle is on and your player count exceeds the maximum for a game, then games displayed will also allow player count to overflow into audience </FormHelperText>
+                <Grid item container xs={12} sm={6} spacing={3} justify="flex-end">
+                    <Grid item xs={12}>
+                        <TextField
+                            name="playerCount"
+                            label="Player Count"
+                            variant="outlined"
+                            onChange={onPlayerCountChange} />
+                    </Grid>
+                    <Grid item xs={11}>
+                        <FormControlLabel
+                            control={
+                                <Switch
+                                    name="audience"
+                                    color="primary"
+                                    size="small"
+                                    onChange={onAudienceToggle}
+                                />
+                            }
+                            label="Overflow to Audience?"
+                        />
+                    </Grid>
+                    <Grid item xs={12}>
+                        <FormHelperText>When toggle is on and your player count exceeds the maximum for a game, then games displayed will also allow player count to overflow into audience </FormHelperText>
+                    </Grid>
                 </Grid>
             </Grid>
         </form>

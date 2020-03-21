@@ -12,13 +12,6 @@ import GameTableFilter from './GameTableFilter';
 import { Grid } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
-    root: {
-        width: '100%',
-    },
-    paper: {
-        width: '100%',
-        marginBottom: theme.spacing(2),
-    },
     visuallyHidden: {
         border: 0,
         clip: 'rect(0 0 0 0)',
