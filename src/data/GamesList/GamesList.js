@@ -43,22 +43,22 @@ function stableSort(array, comparator) {
     return stabilizedThis.map(el => el[0]);
 }
 
-function playerCountFilter(gamesList, playerCount) {
+function playerCountFilter(gamesList, playerCount, audience) {
     playerCount = parseInt(playerCount);
     if (!isNaN(playerCount)) {
         gamesList = gamesList.filter(game => {
             return (game.minPlayers <= playerCount
                 && game.maxPlayers >= playerCount) ||
-                (playerCount > game.maxPlayers && game.audience === true);
+                (audience === true && playerCount > game.maxPlayers && game.audience === true);
         });
     }
     return gamesList;
 }
 
 export function getGamesList(params) {
-    const { order, orderBy, playerCount } = params;
+    const { order, orderBy, playerCount, audience } = params;
     let gamesList = games.games;
-    gamesList = playerCountFilter(gamesList, playerCount);
+    gamesList = playerCountFilter(gamesList, playerCount, audience);
     gamesList = stableSort(gamesList, getComparator(order, orderBy));
     gamesList.forEach((element, index) => {
         gamesList[index].packName = games.packs[element.pack];
