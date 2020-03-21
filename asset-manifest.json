@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/jackbox-game-finder/static/css/main.5f361e03.chunk.css",
-    "main.js": "/jackbox-game-finder/static/js/main.2ae9f82c.chunk.js",
-    "main.js.map": "/jackbox-game-finder/static/js/main.2ae9f82c.chunk.js.map",
+    "main.css": "/jackbox-game-finder/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/jackbox-game-finder/static/js/main.f654d4d7.chunk.js",
+    "main.js.map": "/jackbox-game-finder/static/js/main.f654d4d7.chunk.js.map",
     "runtime-main.js": "/jackbox-game-finder/static/js/runtime-main.a8a12906.js",
     "runtime-main.js.map": "/jackbox-game-finder/static/js/runtime-main.a8a12906.js.map",
-    "static/js/2.9afe4163.chunk.js": "/jackbox-game-finder/static/js/2.9afe4163.chunk.js",
-    "static/js/2.9afe4163.chunk.js.map": "/jackbox-game-finder/static/js/2.9afe4163.chunk.js.map",
+    "static/js/2.fcce39d4.chunk.js": "/jackbox-game-finder/static/js/2.fcce39d4.chunk.js",
+    "static/js/2.fcce39d4.chunk.js.map": "/jackbox-game-finder/static/js/2.fcce39d4.chunk.js.map",
     "index.html": "/jackbox-game-finder/index.html",
-    "precache-manifest.6797bd4ce0aa0b833c0de42b15bf381a.js": "/jackbox-game-finder/precache-manifest.6797bd4ce0aa0b833c0de42b15bf381a.js",
+    "precache-manifest.1aaf0b3affa91197a12ef5bedf535503.js": "/jackbox-game-finder/precache-manifest.1aaf0b3affa91197a12ef5bedf535503.js",
     "service-worker.js": "/jackbox-game-finder/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/jackbox-game-finder/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.9afe4163.chunk.js.LICENSE.txt": "/jackbox-game-finder/static/js/2.9afe4163.chunk.js.LICENSE.txt"
+    "static/css/main.5ecd60fb.chunk.css.map": "/jackbox-game-finder/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.fcce39d4.chunk.js.LICENSE.txt": "/jackbox-game-finder/static/js/2.fcce39d4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a8a12906.js",
-    "static/js/2.9afe4163.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.2ae9f82c.chunk.js"
+    "static/js/2.fcce39d4.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.f654d4d7.chunk.js"
   ]
 }
