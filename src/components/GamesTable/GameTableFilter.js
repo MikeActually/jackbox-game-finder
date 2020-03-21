@@ -21,7 +21,8 @@ export default function GameTableFilter(props) {
                         name="playerCount"
                         label="Player Count"
                         variant="outlined"
-                        onChange={onPlayerCountChange} />
+                        onChange={onPlayerCountChange}
+                        type="number" />
                 </Grid>
                 <Grid item xs={11}>
                     <FormControlLabel
