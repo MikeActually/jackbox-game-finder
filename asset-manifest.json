@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/jackbox-game-finder/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/jackbox-game-finder/static/js/main.16a6922b.chunk.js",
-    "main.js.map": "/jackbox-game-finder/static/js/main.16a6922b.chunk.js.map",
+    "main.js": "/jackbox-game-finder/static/js/main.b533c6e2.chunk.js",
+    "main.js.map": "/jackbox-game-finder/static/js/main.b533c6e2.chunk.js.map",
     "runtime-main.js": "/jackbox-game-finder/static/js/runtime-main.a8a12906.js",
     "runtime-main.js.map": "/jackbox-game-finder/static/js/runtime-main.a8a12906.js.map",
     "static/js/2.6e1b5f42.chunk.js": "/jackbox-game-finder/static/js/2.6e1b5f42.chunk.js",
     "static/js/2.6e1b5f42.chunk.js.map": "/jackbox-game-finder/static/js/2.6e1b5f42.chunk.js.map",
     "index.html": "/jackbox-game-finder/index.html",
-    "precache-manifest.21a49231f2846c78b7a9f39a523d66ef.js": "/jackbox-game-finder/precache-manifest.21a49231f2846c78b7a9f39a523d66ef.js",
+    "precache-manifest.bfd5ee28e99d2b0553f229a1e4ef58c7.js": "/jackbox-game-finder/precache-manifest.bfd5ee28e99d2b0553f229a1e4ef58c7.js",
     "service-worker.js": "/jackbox-game-finder/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/jackbox-game-finder/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.6e1b5f42.chunk.js.LICENSE.txt": "/jackbox-game-finder/static/js/2.6e1b5f42.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a8a12906.js",
     "static/js/2.6e1b5f42.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.16a6922b.chunk.js"
+    "static/js/main.b533c6e2.chunk.js"
   ]
 }
