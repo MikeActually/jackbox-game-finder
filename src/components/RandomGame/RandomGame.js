@@ -28,14 +28,18 @@ export default function RandomGame(props) {
     const handleClose = () => {
         setOpen(false);
     };
+    const gameName = randomGame ? randomGame.name : 'No game found.';
+    const packName = randomGame ? randomGame.packName : 'Please refine your filters';
+    const players = randomGame ? `Players: ${randomGame.minPlayers}-${randomGame.maxPlayers}` : '';
+    const audience = randomGame ? `Audience: ${randomGame.audience === true ? 'Yes' : 'No'}` : '';
     return (
         <div>
             <Dialog onClose={handleClose} aria-labelledby="simple-dialog-title" open={open}>
-                <DialogTitle id="simple-dialog-title">{randomGame.name}</DialogTitle>
+                {gameName && <DialogTitle id="simple-dialog-title">{gameName}</DialogTitle>}
                 <DialogContent>
-                    <DialogContentText>{randomGame.packName}</DialogContentText>
-                    <DialogContentText>Players: {randomGame.minPlayers}-{randomGame.maxPlayers}</DialogContentText>
-                    <DialogContentText>Audience: {randomGame.audience === true ? 'Yes' : 'No'}</DialogContentText>
+                    {packName && <DialogContentText>{packName}</DialogContentText>}
+                    {players && <DialogContentText>{players}</DialogContentText>}
+                    {audience && <DialogContentText>{audience}</DialogContentText>}
                 </DialogContent>
             </Dialog>
             <Button className={classes.randomButton} variant="contained" color="primary" onClick={getRandomGame}>Get a random game!</Button>
