@@ -55,13 +55,24 @@ function playerCountFilter(gamesList, playerCount, audience) {
     return gamesList;
 }
 
+function packFilter(gamesList, checkedPacks) {
+    return gamesList.filter(game => {
+        return checkedPacks.indexOf(game.pack) !== -1;
+    });
+}
+
 export function getGamesList(params) {
-    const { order, orderBy, playerCount, audience } = params;
+    const { order, orderBy, playerCount, audience, checkedPacks } = params;
     let gamesList = games.games;
+    gamesList = packFilter(gamesList, checkedPacks);
     gamesList = playerCountFilter(gamesList, playerCount, audience);
     gamesList = stableSort(gamesList, getComparator(order, orderBy));
     gamesList.forEach((element, index) => {
         gamesList[index].packName = games.packs[element.pack];
     });
     return gamesList;
+}
+
+export function getPacksList() {
+    return games.packs;
 }

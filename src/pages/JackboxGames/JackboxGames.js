@@ -1,15 +1,28 @@
 import React from 'react';
 import GamesTable from '../../components/GamesTable/GamesTable';
 import GameTableFilter from '../../components/GamesTable/GameTableFilter';
-import { Grid } from '@material-ui/core';
-import { getGamesList } from '../../data/GamesList/GamesList';
+import { ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, Typography } from '@material-ui/core';
+import { getGamesList, getPacksList } from '../../data/GamesList/GamesList';
 import RandomGame from '../../components/RandomGame/RandomGame';
+import FilterList from '@material-ui/icons/FilterList';
+import { makeStyles } from '@material-ui/core/styles';
+
+
+const useStyles = makeStyles(theme => ({
+    root: {
+        '& > *': {
+            margin: theme.spacing(1),
+        },
+    },
+}));
 
 export default function JackboxGames() {
     const [order, setOrder] = React.useState('asc');
     const [orderBy, setOrderBy] = React.useState('pack');
     const [playerCount, setPlayerCount] = React.useState('');
     const [audience, setAudience] = React.useState(false);
+    const packsList = getPacksList();
+    const [checkedPacks, setCheckedPacks] = React.useState(Object.keys(packsList));
     const handleRequestSort = (event, property) => {
         const isAsc = orderBy === property && order === 'asc';
         setOrder(isAsc ? 'desc' : 'asc');
@@ -21,23 +34,43 @@ export default function JackboxGames() {
     const handleAudience = (value) => {
         setAudience(value);
     };
-    const gamesList = getGamesList({ order, orderBy, playerCount, audience });
+    const handlePackChecked = (value) => {
+        const currentIndex = checkedPacks.indexOf(value);
+        const newChecked = [...checkedPacks];
+
+        if (currentIndex === -1) {
+            newChecked.push(value);
+        } else {
+            newChecked.splice(currentIndex, 1);
+        }
+        setCheckedPacks(newChecked);
+    }
+    const gamesList = getGamesList({ order, orderBy, playerCount, audience, checkedPacks });
+    const classes = useStyles();
+
     return (
-        <Grid container spacing={3}>
-            <Grid item container xs={12} spacing={1}
-                direction="row"
-                justify="flex-start"
-                alignItems="flex-start">
-                <Grid item xs={12} sm={6}>
-                    <GameTableFilter onFilterPlayer={handlePlayerFilter} onAudienceFilter={handleAudience} audience />
-                </Grid>
-                <Grid item xs={12} sm={6}>
-                    <RandomGame gamesList={gamesList} />
-                </Grid>
-            </Grid>
-            <Grid item xs={12}>
-                <GamesTable gamesList={gamesList} order={order} orderBy={orderBy} handleRequestSort={handleRequestSort} />
-            </Grid>
-        </Grid>
+        <div className={classes.root}>
+            <RandomGame gamesList={gamesList} />
+            <ExpansionPanel>
+                <ExpansionPanelSummary
+                    expandIcon={<FilterList />}>
+                    <Typography>Filter Games</Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails>
+                    <GameTableFilter
+                        onFilterPlayer={handlePlayerFilter}
+                        onAudienceFilter={handleAudience}
+                        onTogglePackChecked={handlePackChecked}
+                        packs={packsList}
+                        checkedPacks={checkedPacks}
+                        audience />
+                </ExpansionPanelDetails>
+            </ExpansionPanel>
+            <GamesTable
+                gamesList={gamesList}
+                order={order}
+                orderBy={orderBy}
+                handleRequestSort={handleRequestSort} />
+        </div>
     );
 }
