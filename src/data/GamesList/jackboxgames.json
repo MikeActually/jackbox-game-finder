@@ -1,221 +1,257 @@
 {
-    "games": [
-        {
-            "name": "You Don't Know Jack 2015",
-            "minPlayers": 1,
-            "maxPlayers": 4,
-            "pack": "jp1",
-            "audience": false
-        },
-        {
-            "name": "Drawful",
-            "minPlayers": 3,
-            "maxPlayers": 8,
-            "pack": "jp1",
-            "audience": false
-        },
-        {
-            "name": "Word Spud",
-            "minPlayers": 2,
-            "maxPlayers": 8,
-            "pack": "jp1",
-            "audience": false
-        },
-        {
-            "name": "Lie Swatter",
-            "minPlayers": 1,
-            "maxPlayers": 1000,
-            "pack": "jp1"
-        },
-        {
-            "name": "Fibbage XL",
-            "minPlayers": 2,
-            "maxPlayers": 8,
-            "pack": "jp1",
-            "audience": false
-        },
-        {
-            "name": "Fibbage 2",
-            "minPlayers": 2,
-            "maxPlayers": 8,
-            "pack": "jp2",
-            "audience": true
-        },
-        {
-            "name": "Earwax",
-            "minPlayers": 3,
-            "maxPlayers": 8,
-            "pack": "jp2",
-            "audience": true
-        },
-        {
-            "name": "Bidiots",
-            "minPlayers": 3,
-            "maxPlayers": 6,
-            "pack": "jp2",
-            "audience": false
-        },
-        {
-            "name": "Quiplash XL",
-            "minPlayers": 3,
-            "maxPlayers": 8,
-            "pack": "jp2",
-            "audience": true
-        },
-        {
-            "name": "Bomb Corp",
-            "minPlayers": 1,
-            "maxPlayers": 4,
-            "pack": "jp2",
-            "audience": false
-        },
-        {
-            "name": "Quiplash 2",
-            "minPlayers": 3,
-            "maxPlayers": 8,
-            "pack": "jp3",
-            "audience": true
-        },
-        {
-            "name": "Trivia Murder Party",
-            "minPlayers": 1,
-            "maxPlayers": 8,
-            "pack": "jp3",
-            "audience": true
-        },
-        {
-            "name": "Guesspionage",
-            "minPlayers": 2,
-            "maxPlayers": 8,
-            "pack": "jp3",
-            "audience": true
-        },
-        {
-            "name": "Fakin' It",
-            "minPlayers": 3,
-            "maxPlayers": 6,
-            "pack": "jp3",
-            "audience": true
-        },
-        {
-            "name": "Tee K.O",
-            "minPlayers": 3,
-            "maxPlayers": 8,
-            "pack": "jp3",
-            "audience": true
-        },
-        {
-            "name": "Fibbage 3",
-            "minPlayers": 2,
-            "maxPlayers": 8,
-            "pack": "jp4",
-            "audience": true
-        },
-        {
-            "name": "Survive the Internet",
-            "minPlayers": 3,
-            "maxPlayers": 8,
-            "pack": "jp4",
-            "audience": true
-        },
-        {
-            "name": "Monster Seeking Monster",
-            "minPlayers": 3,
-            "maxPlayers": 7,
-            "pack": "jp4",
-            "audience": true
-        },
-        {
-            "name": "Bracketeering",
-            "minPlayers": 3,
-            "maxPlayers": 16,
-            "pack": "jp4",
-            "audience": true
-        },
-        {
-            "name": "Civic Doodle",
-            "minPlayers": 3,
-            "maxPlayers": 8,
-            "pack": "jp4",
-            "audience": true
-        },
-        {
-            "name": "You Don't Know Jack: Full Stream",
-            "minPlayers": 1,
-            "maxPlayers": 8,
-            "pack": "jp5",
-            "audience": true
-        },
-        {
-            "name": "Split the Room",
-            "minPlayers": 3,
-            "maxPlayers": 8,
-            "pack": "jp5",
-            "audience": true
-        },
-        {
-            "name": "Mad Verse City",
-            "minPlayers": 3,
-            "maxPlayers": 8,
-            "pack": "jp5",
-            "audience": true
-        },
-        {
-            "name": "Zeeple Dome",
-            "minPlayers": 1,
-            "maxPlayers": 6,
-            "pack": "jp5",
-            "audience": false
-        },
-        {
-            "name": "Patently Stupid",
-            "minPlayers": 3,
-            "maxPlayers": 6,
-            "pack": "jp5",
-            "audience": true
-        },
-        {
-            "name": "Trivia Murder Party 2",
-            "minPlayers": 1,
-            "maxPlayers": 8,
-            "pack": "jp6",
-            "audience": true
-        },
-        {
-            "name": "Role Models",
-            "minPlayers": 3,
-            "maxPlayers": 6,
-            "pack": "jp6",
-            "audience": true
-        },
-        {
-            "name": "Joke Boat",
-            "minPlayers": 3,
-            "maxPlayers": 8,
-            "pack": "jp6",
-            "audience": true
-        },
-        {
-            "name": "Dictionarium",
-            "minPlayers": 3,
-            "maxPlayers": 8,
-            "pack": "jp6",
-            "audience": true
-        },
-        {
-            "name": "Push The Button",
-            "minPlayers": 4,
-            "maxPlayers": 10,
-            "pack": "jp6",
-            "audience": false
-        }
-    ],
-    "packs": {
-        "jp1": "Jackbox Party Pack 1",
-        "jp2": "Jackbox Party Pack 2",
-        "jp3": "Jackbox Party Pack 3",
-        "jp4": "Jackbox Party Pack 4",
-        "jp5": "Jackbox Party Pack 5",
-        "jp6": "Jackbox Party Pack 6"
+  "games": [
+    {
+      "name": "You Don't Know Jack 2015",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "pack": "jp1",
+      "audience": false
+    },
+    {
+      "name": "Drawful",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp1",
+      "audience": false
+    },
+    {
+      "name": "Word Spud",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "pack": "jp1",
+      "audience": false
+    },
+    {
+      "name": "Lie Swatter",
+      "minPlayers": 1,
+      "maxPlayers": 1000,
+      "pack": "jp1"
+    },
+    {
+      "name": "Fibbage XL",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "pack": "jp1",
+      "audience": false
+    },
+    {
+      "name": "Fibbage 2",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "pack": "jp2",
+      "audience": true
+    },
+    {
+      "name": "Earwax",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp2",
+      "audience": true
+    },
+    {
+      "name": "Bidiots",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "pack": "jp2",
+      "audience": false
+    },
+    {
+      "name": "Quiplash XL",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp2",
+      "audience": true
+    },
+    {
+      "name": "Bomb Corp",
+      "minPlayers": 1,
+      "maxPlayers": 4,
+      "pack": "jp2",
+      "audience": false
+    },
+    {
+      "name": "Quiplash 2",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp3",
+      "audience": true
+    },
+    {
+      "name": "Trivia Murder Party",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "pack": "jp3",
+      "audience": true
+    },
+    {
+      "name": "Guesspionage",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "pack": "jp3",
+      "audience": true
+    },
+    {
+      "name": "Fakin' It",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "pack": "jp3",
+      "audience": true
+    },
+    {
+      "name": "Tee K.O",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp3",
+      "audience": true
+    },
+    {
+      "name": "Fibbage 3",
+      "minPlayers": 2,
+      "maxPlayers": 8,
+      "pack": "jp4",
+      "audience": true
+    },
+    {
+      "name": "Survive the Internet",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp4",
+      "audience": true
+    },
+    {
+      "name": "Monster Seeking Monster",
+      "minPlayers": 3,
+      "maxPlayers": 7,
+      "pack": "jp4",
+      "audience": true
+    },
+    {
+      "name": "Bracketeering",
+      "minPlayers": 3,
+      "maxPlayers": 16,
+      "pack": "jp4",
+      "audience": true
+    },
+    {
+      "name": "Civic Doodle",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp4",
+      "audience": true
+    },
+    {
+      "name": "You Don't Know Jack: Full Stream",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "pack": "jp5",
+      "audience": true
+    },
+    {
+      "name": "Split the Room",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp5",
+      "audience": true
+    },
+    {
+      "name": "Mad Verse City",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp5",
+      "audience": true
+    },
+    {
+      "name": "Zeeple Dome",
+      "minPlayers": 1,
+      "maxPlayers": 6,
+      "pack": "jp5",
+      "audience": false
+    },
+    {
+      "name": "Patently Stupid",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "pack": "jp5",
+      "audience": true
+    },
+    {
+      "name": "Trivia Murder Party 2",
+      "minPlayers": 1,
+      "maxPlayers": 8,
+      "pack": "jp6",
+      "audience": true
+    },
+    {
+      "name": "Role Models",
+      "minPlayers": 3,
+      "maxPlayers": 6,
+      "pack": "jp6",
+      "audience": true
+    },
+    {
+      "name": "Joke Boat",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp6",
+      "audience": true
+    },
+    {
+      "name": "Dictionarium",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp6",
+      "audience": true
+    },
+    {
+      "name": "Push The Button",
+      "minPlayers": 4,
+      "maxPlayers": 10,
+      "pack": "jp6",
+      "audience": false
+    },
+    {
+      "name": "Quiplash 3",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp7",
+      "audience": true
+    },
+    {
+      "name": "The Devils and the Details",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp7",
+      "audience": true
+    },
+    {
+      "name": "Champ’d Up",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp7",
+      "audience": true
+    },
+    {
+      "name": "Talking Points",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp7",
+      "audience": false
+    },
+    {
+      "name": "Blather ‘Round",
+      "minPlayers": 2,
+      "maxPlayers": 6,
+      "pack": "jp7",
+      "audience": true
     }
+  ],
+  "packs": {
+    "jp1": "Jackbox Party Pack 1",
+    "jp2": "Jackbox Party Pack 2",
+    "jp3": "Jackbox Party Pack 3",
+    "jp4": "Jackbox Party Pack 4",
+    "jp5": "Jackbox Party Pack 5",
+    "jp6": "Jackbox Party Pack 6",
+    "jp7": "Jackbox Party Pack 7"
+  }
 }
