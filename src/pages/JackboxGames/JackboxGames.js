@@ -1,7 +1,7 @@
 import React from 'react';
 import GamesTable from '../../components/GamesTable/GamesTable';
 import GameTableFilter from '../../components/GamesTable/GameTableFilter';
-import { ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, Typography } from '@material-ui/core';
+import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@material-ui/core';
 import { getGamesList, getPacksList } from '../../data/GamesList/GamesList';
 import RandomGame from '../../components/RandomGame/RandomGame';
 import FilterList from '@material-ui/icons/FilterList';
@@ -51,12 +51,12 @@ export default function JackboxGames() {
     return (
         <div className={classes.root}>
             <RandomGame gamesList={gamesList} />
-            <ExpansionPanel>
-                <ExpansionPanelSummary
+            <Accordion>
+                <AccordionSummary
                     expandIcon={<FilterList />}>
                     <Typography>Filter Games</Typography>
-                </ExpansionPanelSummary>
-                <ExpansionPanelDetails>
+                </AccordionSummary>
+                <AccordionDetails>
                     <GameTableFilter
                         onFilterPlayer={handlePlayerFilter}
                         onAudienceFilter={handleAudience}
@@ -64,8 +64,8 @@ export default function JackboxGames() {
                         packs={packsList}
                         checkedPacks={checkedPacks}
                         audience />
-                </ExpansionPanelDetails>
-            </ExpansionPanel>
+                </AccordionDetails>
+            </Accordion>
             <GamesTable
                 gamesList={gamesList}
                 order={order}
