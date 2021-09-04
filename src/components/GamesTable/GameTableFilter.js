@@ -19,8 +19,8 @@ export default function GameTableFilter(props) {
     };
     return (
         <form onSubmit={onSubmit}>
-            <Grid container spacing={3} justify="flex-start">
-                <Grid item container spacing={3} justify="flex-start" xs={12} sm={6}>
+            <Grid container spacing={3} justifyContent="flex-start">
+                <Grid item container spacing={3} justifyContent="flex-start" xs={12} sm={6}>
                     <Grid item xs={12}>
                         <TextField
                             name="playerCount"
