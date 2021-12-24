@@ -243,6 +243,41 @@
       "maxPlayers": 6,
       "pack": "jp7",
       "audience": true
+    },
+    {
+      "name": "Job Job",
+      "minPlayers": 3,
+      "maxPlayers": 10,
+      "pack": "jp8",
+      "audience": true
+    },
+    {
+      "name": "Weapons Drawn",
+      "minPlayers": 4,
+      "maxPlayers": 8,
+      "pack": "jp8",
+      "audience": true
+    },
+    {
+      "name": "Drawful Animate",
+      "minPlayers": 3,
+      "maxPlayers": 10,
+      "pack": "jp8",
+      "audience": true
+    },
+    {
+      "name": "Wheel of Enormous Proportions",
+      "minPlayers": 3,
+      "maxPlayers": 8,
+      "pack": "jp8",
+      "audience": true
+    },
+    {
+      "name": "The Poll Mine",
+      "minPlayers": 2,
+      "maxPlayers": 10,
+      "pack": "jp8",
+      "audience": true
     }
   ],
   "packs": {
@@ -252,6 +287,7 @@
     "jp4": "Jackbox Party Pack 4",
     "jp5": "Jackbox Party Pack 5",
     "jp6": "Jackbox Party Pack 6",
-    "jp7": "Jackbox Party Pack 7"
+    "jp7": "Jackbox Party Pack 7",
+    "jp8": "Jackbox Party Pack 8"
   }
 }
