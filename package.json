@@ -4,13 +4,10 @@
   "homepage": "https://mikeactually.github.io/jackbox-game-finder",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.9.7",
-    "@material-ui/icons": "^4.9.1",
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.0.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "@material-ui/core": "4.12.3",
+    "@material-ui/icons": "4.11.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,10 +34,13 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.1.0",
-    "@commitlint/config-conventional": "^16.0.0",
-    "gh-pages": "^3.1.0",
-    "husky": "^7.0.4",
+    "@commitlint/cli": "16.1.0",
+    "@commitlint/config-conventional": "16.0.0",
+    "@testing-library/jest-dom": "5.16.2",
+    "@testing-library/react": "12.1.2",
+    "@testing-library/user-event": "13.5.0",
+    "gh-pages": "3.2.3",
+    "husky": "7.0.4",
     "react-scripts": "5.0.0"
   },
   "husky": {
